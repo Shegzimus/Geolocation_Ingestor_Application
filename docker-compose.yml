@@ -4,9 +4,9 @@ services:
     environment:
       - POSTGRES_USER=root
       - POSTGRES_PASSWORD=root
-      - POSTGRES_DB=gontrel
+      - POSTGRES_DB=geolocation_ingestor_app
     volumes:
-      - "./gontrel_postgres_data:/var/lib/postgresql/data:rw"
+      - "./geolocation_ingestor_app_data:/var/lib/postgresql/data:rw"
     ports:
       - "5432:5432"
   pgadmin:
