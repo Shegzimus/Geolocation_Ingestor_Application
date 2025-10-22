@@ -1,0 +1,8 @@
+[project]
+name = "city_crawler"
+version = "0.1.0"
+author = "Oluwasegun Ajetunmobi"
+description = "A web crawler for city data"
+readme = "README.md"
+license = "MIT"
+dependencies = []
